@@ -1,0 +1,428 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+    background-color: #EDF2F8;
+}
+
+
+.attribution {
+    background-color: white;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 1110px;
+    height: 575px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 15px 30px;
+    grid-template-areas: 
+    "Daniel Daniel Jonathan Kira" 
+    "Daniel Daniel Jonathan Kira"
+    "Jeanette Patrick Patrick Kira"
+    "Jeanette Patrick Patrick Kira";
+    
+
+}
+
+.Daniel .coma {
+    position: relative;
+    left: 60%;
+    width: 120px;
+    height: 100px;
+}
+
+.Daniel {
+    grid-area: Daniel;
+    background-color: #733FC8;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.content-Daniel {
+    width: 100%;
+    height: 100%;
+}
+
+
+.details-Daniel .Daniel-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%  ;
+    -webkit-border-radius: 50%  ;
+    -moz-border-radius: 50%  ;
+    -ms-border-radius: 50%  ;
+    -o-border-radius: 50%  ;
+    border: 1px solid white;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.container-daniel {
+    display: flex;
+    padding-bottom: 15px;
+}
+.details-Daniel {
+    display: flex;
+    margin-top: -80px;
+    padding: 0 25px 0 40px;
+    flex-direction: column;
+    position: relative;
+    z-index: 999;
+}
+
+.details-Daniel .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-Daniel .details p  {
+    font-size: 13px;
+    color: white;
+}
+
+.details-Daniel .details span {
+    color: white;
+    opacity: .4;
+    font-size: 13px;
+}
+.info p {
+    font-size: 20px;
+    color: white;
+    opacity: .9;
+    padding-bottom: 20px;
+}
+
+.info span {
+    font-size: 13px;
+    color: white;
+    opacity: .4;
+}
+
+
+
+
+.Jonathan {
+    grid-area: Jonathan;
+    background-color: #49556B;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.content-Jonathan {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px 0 25px;
+
+}
+
+.details-Jonathan {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.details-Jonathan .details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-Jonathan img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%  ;
+    -webkit-border-radius: 50%  ;
+    -moz-border-radius: 50%  ;
+    -ms-border-radius: 50%  ;
+    -o-border-radius: 50%  ;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.details-Jonathan p {
+    font-size: 13px;
+    color: white;
+}
+
+.details-Jonathan span {
+    color: white;
+    opacity: .4;
+    font-size: 13px;
+}
+
+.content-Jonathan .info span {
+    opacity: .5;
+    font-size: 14px;
+}
+
+
+
+
+.Kira {
+    grid-area: Kira;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.content-Kira {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px 0 25px;
+
+}
+
+.details-Kira {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.details-Kira .details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-Kira img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%  ;
+    -webkit-border-radius: 50%  ;
+    -moz-border-radius: 50%  ;
+    -ms-border-radius: 50%  ;
+    -o-border-radius: 50%  ;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.details-Kira p {
+    font-size: 13px;
+    color: #18202D;
+}
+
+.details-Kira span {
+    color: #18202D;
+    opacity: .5;
+    font-size: 13px;
+}
+
+.content-Kira .info p {
+    color: #18202D;
+    opacity: .8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.content-Kira .info span {
+    opacity: .7;
+    font-size: 13px;
+    color: #18202D;
+}
+
+
+.Jeanette {
+    grid-area: Jeanette;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.content-Jeanette {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px 0 25px;
+
+}
+
+.details-Jeanette {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.details-Jeanette .details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-Jeanette img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%  ;
+    -webkit-border-radius: 50%  ;
+    -moz-border-radius: 50%  ;
+    -ms-border-radius: 50%  ;
+    -o-border-radius: 50%  ;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.details-Jeanette p {
+    font-size: 13px;
+    color: #18202D;
+}
+
+.details-Jeanette span {
+    color: #18202D;
+    opacity: .5;
+    font-size: 13px;
+}
+
+.content-Jeanette .info p {
+    color: #18202D;
+    opacity: .8;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.content-Jeanette .info span {
+    opacity: .7;
+    font-size: 13px;
+    color: #18202D;
+}
+
+
+
+.Patrick {
+    grid-area: Patrick;
+    background-color: #18202D;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.content-Patrick {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px 0 25px;
+
+}
+
+.details-Patrick {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.details-Patrick .details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-Patrick img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%  ;
+    -webkit-border-radius: 50%  ;
+    -moz-border-radius: 50%  ;
+    -ms-border-radius: 50%  ;
+    -o-border-radius: 50%  ;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.details-Patrick p {
+    font-size: 13px;
+    color: white;
+    opacity: .9;
+}
+
+.details-Patrick span {
+    color: white;
+    opacity: .5;
+    font-size: 13px;
+}
+
+.content-Patrick .info p {
+    color: white;
+    font-size: 20px;
+}
+
+.content-Patrick .info span {
+    opacity: .7;
+    font-size: 13.5px;
+    color: white;
+}
+
+
+@media (max-width:1045px) {
+
+    .content-Kira .info span  ,.content-Jonathan .info span ,.info span{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width : 950px) {
+    .content {
+        grid-template-columns: repeat(5,auto);
+        grid-template-rows: repeat(5,auto);
+        grid-template-areas : 
+        "Daniel Daniel Daniel Daniel"
+        "Daniel Daniel Daniel Daniel"
+        "Jonathan Jonathan Jonathan Jonathan"
+        "Kira Kira Kira Kira"
+        "Jeanette Jeanette Jeanette Jeanette"
+        "Jeanette Jeanette Jeanette Jeanette"
+        "Patrick Patrick Patrick Patrick"
+        "Patrick Patrick Patrick Patrick"
+        ;
+        height: 90%;
+        gap: 20px 0;
+        margin: 0 20px;
+        overflow-y: auto;
+    }
+
+    .details-Daniel {
+
+        margin-bottom: 15px ;
+    } 
+    
+    .content-Jonathan , .content-Jeanette , .content-Kira , .content-Jonathan , .content-Patrick {
+        padding-bottom: 15px;
+    }
+}
+
+@media screen {
+    
+}
